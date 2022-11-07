@@ -46,7 +46,6 @@ export function BlogProvider({ children }) {
       for (let id in blogs) {
         blogL.push({ id, ...blogs[id] });
       }
-      //   console.log(blogL);
       setCurrentBlogs(blogL);
     });
   }, []);
